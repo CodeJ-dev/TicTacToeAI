@@ -73,16 +73,16 @@ public class TicTacToe{
   }
   
   private void setFrameLabel(String str) {
-	    frameLabel.setLayout(new GridBagLayout());
-	    JPanel p = new JPanel();
-	    JLabel label = new JLabel(str);
-	    label.setFont(new Font("Verdana", 30 ,20));
-	    p.add(label);
-	    p.setBorder(new LineBorder(Color.BLACK)); // make it easy to see
-	    frameLabel.add(p);
-	    frameLabel.setSize(100, 100);
-	    frameLabel.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	    frameLabel.setVisible(true);
+    frameLabel.setLayout(new GridBagLayout());
+    JPanel p = new JPanel();
+    JLabel label = new JLabel(str);
+    label.setFont(new Font("Verdana", 30 ,20));
+    p.add(label);
+    p.setBorder(new LineBorder(Color.BLACK)); // make it easy to see
+    frameLabel.add(p);
+    frameLabel.setSize(100, 100);
+    frameLabel.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frameLabel.setVisible(true);
   }
   
   private void playGame(Scanner in){
